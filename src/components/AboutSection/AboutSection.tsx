@@ -2,9 +2,9 @@ const AboutSection: React.FC = function () {
   return (
     <div
       id="about"
-      className="bg-lime-300 w-full grid grid-cols-2 py-10 px-20 scroll-smooth mb-10"
+      className="bg-primary w-full grid grid-cols-2 py-10 px-20 scroll-smooth mb-10"
     >
-      <div className="bg-lime-950 w-96 h-96"></div>
+      <div className="bg-secondary w-96 h-96"></div>
       <div className="text-center m-auto">
         <div className="text-3xl mb-5">Hello</div>
         <p className="text-wrap ">

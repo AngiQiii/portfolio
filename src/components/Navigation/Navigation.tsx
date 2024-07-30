@@ -5,7 +5,7 @@ import NavigationItem from "./NavigationItem";
 
 const Navigation: React.FC = function () {
   return (
-    <nav className="w-full h-auto bg-lime-300 py-3 px-10 flex items-center justify-between ">
+    <nav className="w-full h-auto bg-primary py-3 px-10 flex items-center justify-between ">
       <h2>PORTFOLIO</h2>
       <ul className="flex items-center gap-5">
         {NavigationData.map((navData) => (
