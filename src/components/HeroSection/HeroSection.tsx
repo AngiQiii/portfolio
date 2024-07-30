@@ -10,7 +10,7 @@ const HeroSection: React.FC = function () {
           <div className="ml-20 z-50">
             <h3 className="text-2xl">MY NAME IS</h3>
             <h2 className="text-4xl">ANGELIQUE BONITA PRETORIUS</h2>
-            <p className="bg-lime-300 w-[20rem] h-auto p-2 shadow-sm shadow-slate-400">
+            <p className="bg-primary w-[20rem] h-auto p-2 shadow-sm shadow-slate-400">
               I'M A JUNIOR FRONT-END DEVELOPER
             </p>
           </div>
