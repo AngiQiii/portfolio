@@ -14,8 +14,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: "rgb(190 242 100)",
-        secondary: "rgb(26 46 5)",
+        primary: "rgb(27, 27, 27)",
+        secondary: "rgb(53, 53, 53)",
+        tertiary: "rgb(16 185 129)",
+      },
+      screens: {
+        desktop: { max: "1600px" },
+        laptop: { max: "1440px" },
+        tablet: { max: "1100px" },
+        mobile: { max: "640px" },
       },
     },
   },

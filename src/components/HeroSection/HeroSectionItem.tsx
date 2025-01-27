@@ -1,14 +1,20 @@
-type HeroSectionItemProps = {
-  dots: number;
+type isEvenType = {
+  isEven: boolean;
 };
 
-const HeroSectionItem: React.FC<HeroSectionItemProps> = function (props) {
-  const heroSectionDetail: unknown[] = Array.apply(null, Array(props.dots));
+const HeroSectionItem: React.FC<isEvenType> = function (props) {
+  const heroSectionDetail: unknown[] = Array.apply(null, Array(121));
+  const styles = !props.isEven
+    ? "even:bg-emerald-500/50 odd:inherit"
+    : "even:inherit odd:bg-emerald-500";
 
   return (
-    <div className="flex items-center gap-2 mb-5">
-      {heroSectionDetail.map(() => (
-        <li className="bg-lime-100 list-none w-2 h-2 rounded-full"></li>
+    <div className="flex items-center gap-2 mb-2">
+      {heroSectionDetail.map((_, index) => (
+        <li
+          key={index}
+          className={`${styles} list-none min-w-2 h-2 rounded-full`}
+        ></li>
       ))}
     </div>
   );
