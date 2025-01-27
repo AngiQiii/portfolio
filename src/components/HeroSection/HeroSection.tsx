@@ -1,26 +1,16 @@
-import React from "react";
 import HeroSectionItems from "./HeroSectionItems";
 
 const HeroSection: React.FC = function () {
   return (
-    <div className="w-full h-auto my-5">
-      <div className="flex items-center justify-between">
-        <div>
-          <HeroSectionItems />
-          <div className="ml-20 z-50">
-            <h3 className="text-2xl">MY NAME IS</h3>
-            <h2 className="text-4xl">ANGELIQUE BONITA PRETORIUS</h2>
-            <p className="bg-lime-300 w-[20rem] h-auto p-2 shadow-sm shadow-slate-400">
-              I'M A JUNIOR FRONT-END DEVELOPER
-            </p>
-          </div>
-        </div>
-
-        <img
-          className="w-1/3 mr-32 rounded-full"
-          src="https://www.shutterstock.com/shutterstock/photos/1036458553/display_1500/stock-photo-random-frame-the-child-is-cheerfully-picking-at-the-nose-black-and-white-image-1036458553.jpg"
-          alt="my face"
-        />
+    <div className="relative mb-10">
+      <HeroSectionItems />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center mobile:w-full">
+        <h1 className="flex m-auto w-auto text-5xl bg-primary p-5 tablet:text-3xl mobile:text-2xl mobile:items-center mobile:justify-center">
+          Angelique Bonita Pretorius
+        </h1>
+        <h3 className="inline m-auto w-auto text-center text-xl bg-primary p-5 mobile:text-lg">
+          Junior UI / web developer
+        </h3>
       </div>
     </div>
   );

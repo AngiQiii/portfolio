@@ -1,64 +1,102 @@
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { IoLogoJavascript } from "react-icons/io";
-import { IoLogoCss3 } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { RiNextjsLine } from "react-icons/ri";
-import { TbBrandTypescript } from "react-icons/tb";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { ReactElement } from "react";
-
-type SkillsDataTypes = {
-  name: string;
-  image: ReactElement;
+export type skillsDataType = {
+  heading: string;
+  skills: { name: string; rating: number }[];
 };
 
-export const skillsData: SkillsDataTypes[] = [
+export const SkillsData: skillsDataType[] = [
   {
-    name: "HTML",
-    image: AiOutlineHtml5({ size: 40 }),
+    heading: "Personal",
+    skills: [
+      {
+        name: "Adaptability",
+        rating: 4,
+      },
+      {
+        name: "Continuous Learning",
+        rating: 5,
+      },
+      {
+        name: "Teamwork",
+        rating: 4,
+      },
+      {
+        name: "Time Management",
+        rating: 4,
+      },
+      {
+        name: "Creativity",
+        rating: 3,
+      },
+      {
+        name: "Dependability",
+        rating: 4,
+      },
+    ],
   },
   {
-    name: "JavaScript",
-    image: IoLogoJavascript({ size: 40 }),
+    heading: "Programming",
+    skills: [
+      {
+        name: "HTML",
+        rating: 4,
+      },
+      {
+        name: "CSS",
+        rating: 4,
+      },
+      {
+        name: "JavaScript",
+        rating: 4,
+      },
+      {
+        name: "Node.js",
+        rating: 3,
+      },
+      {
+        name: "Firebase",
+        rating: 3,
+      },
+      {
+        name: "React",
+        rating: 4,
+      },
+      {
+        name: "Tailwind",
+        rating: 3,
+      },
+      {
+        name: "TypeScript",
+        rating: 3,
+      },
+      {
+        name: "Next.js",
+        rating: 4,
+      },
+      {
+        name: "API",
+        rating: 3,
+      },
+      {
+        name: "WordPress",
+        rating: 3,
+      },
+    ],
   },
   {
-    name: "CSS",
-    image: IoLogoCss3({ size: 40 }),
-  },
-  {
-    name: "React",
-    image: FaReact({ size: 40 }),
-  },
-  {
-    name: "NextJS",
-    image: RiNextjsLine({ size: 40 }),
-  },
-  {
-    name: "TypeScript",
-    image: TbBrandTypescript({ size: 40 }),
-  },
-  {
-    name: "Tailwind",
-    image: RiTailwindCssFill({ size: 40 }),
-  },
-];
-
-type CertificateTypes = {
-  name: string;
-  href: string;
-};
-
-export const certificates: CertificateTypes[] = [
-  {
-    name: "HTML and CSS certificate",
-    href: "/documents/html_css.pdf",
-  },
-  {
-    name: "JavaScript certificatee",
-    href: "/documents/javaScript.pdf",
-  },
-  {
-    name: "React certificate",
-    href: "/documents/React.pdf",
+    heading: "Software",
+    skills: [
+      {
+        name: "Github",
+        rating: 2,
+      },
+      {
+        name: "Clickup",
+        rating: 3,
+      },
+      {
+        name: "Visual Studio Code",
+        rating: 4,
+      },
+    ],
   },
 ];
