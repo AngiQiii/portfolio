@@ -11,9 +11,9 @@ const AboutSection: React.FC = function () {
         continuous learning and staying up-to-date with the latest industry
         trends and best practices. My goal is to build responsive, accessible,
         and user-friendly applications that not only meet the needs of users but
-        also exceed their expectations. Feel free to explore my portfolio to see
-        some of the projects I've worked on. I'm excited to connect and
-        collaborate on exciting new challenges!
+        also exceed their expectations and to grow and learn more. Feel free to
+        explore my portfolio to see some of the projects I've worked on. I'm
+        excited to connect and collaborate on exciting new challenges!
       </p>
     </div>
   );
