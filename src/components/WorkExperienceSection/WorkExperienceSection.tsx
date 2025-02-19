@@ -25,7 +25,12 @@ const WorkExperienceSection: React.FC = function () {
             https://www.rnrautomotive.co.za
           </a>
         </p>
-        <p>Made a 21st birthday invite</p>
+        <p className="mb-[30px]">de a 21st birthday invite</p>
+        <h2 className="text-2xl mb-5 ">Other</h2>
+        <p>
+          Created a CV with Next.js and then used Puppeteer to convert it into a
+          PDF file.
+        </p>
       </div>
     </div>
   );
