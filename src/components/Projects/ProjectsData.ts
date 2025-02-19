@@ -25,7 +25,7 @@ import RnRAutomotive5 from "../../../public/Images/RnR_automotive_page5.png";
 import RnRAutomotive6 from "../../../public/Images/RnR_automotive_page6.png";
 
 // Golf
-import GolfWebsite1 from "../../../public/Images/Golf_website.png";
+import GolfWebsite1 from "../../../public/Images/golf_website.png";
 import GolfWebsite2 from "../../../public/Images/Golf_website_page2.png";
 import GolfWebsite3 from "../../../public/Images/Golf_website_page3.png";
 import GolfWebsite4 from "../../../public/Images/Golf_website_page4.png";
@@ -230,7 +230,7 @@ export const ProjectsData: projectsDataTypes[] = [
   //
   {
     name: "Trekt Website",
-    image: [Trekt1, Trekt2, Trekt2],
+    image: [Trekt1, Trekt2, Trekt3],
     description: "I developed a website as part of my coursework.",
     used: [FaHtml5, FaCss3Alt],
     github: [FaGithub],
