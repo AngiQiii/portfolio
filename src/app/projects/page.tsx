@@ -1,11 +1,10 @@
 "use client";
 import { ProjectsData } from "@/components/Projects/ProjectsData";
-import { projectsDataTypes } from "@/components/Projects/ProjectsData";
 
 import React from "react";
 import ProjectsImageSlide from "@/components/Projects/ProjectsImageSlide";
 
-const ProjectsPage: React.FC<projectsDataTypes> = function () {
+export default function ProjectsPage() {
   return (
     <div>
       {ProjectsData.map((data, projectIndex) => (
@@ -13,6 +12,4 @@ const ProjectsPage: React.FC<projectsDataTypes> = function () {
       ))}
     </div>
   );
-};
-
-export default ProjectsPage;
+}

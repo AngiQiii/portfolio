@@ -1,4 +1,4 @@
-import { NavigationType, ClassType } from "./NavigationData";
+import { NavigationType, ClassType } from "../Navigation/navigationData";
 
 type NavigationItemProps = NavigationType &
   ClassType & {

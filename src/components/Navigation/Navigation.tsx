@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-import { NavigationData } from "./NavigationData";
+import { NavigationData } from "../Navigation/navigationData";
 import NavigationItem from "./NavigationsItem";
 import { IoClose } from "react-icons/io5";
 
