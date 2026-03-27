@@ -8,6 +8,7 @@ const ProjectsImageSlide: React.FC<{ data: projectsDataTypes }> = ({
 }) => {
   const { image, name, description, used, github, githubLink, url, urlName } =
     data;
+  const limitedImages = image.slice(0, 7);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [fullScreenImageIndex, setFullScreenImageIndex] = useState(0);
   const [showFullScreen, setShowFullScreen] = useState(false);
@@ -16,7 +17,7 @@ const ProjectsImageSlide: React.FC<{ data: projectsDataTypes }> = ({
     if (!showFullScreen) {
       const interval = setInterval(() => {
         setCurrentImageIndex((prevIndex) =>
-          prevIndex === image.length - 1 ? 0 : prevIndex + 1
+          prevIndex === limitedImages.length - 1 ? 0 : prevIndex + 1,
         );
       }, 5000); // Change slides every 5 seconds
       return () => clearInterval(interval);
@@ -32,11 +33,11 @@ const ProjectsImageSlide: React.FC<{ data: projectsDataTypes }> = ({
 
   const nextImage = () =>
     setFullScreenImageIndex((prev) =>
-      prev === image.length - 1 ? 0 : prev + 1
+      prev === image.length - 1 ? 0 : prev + 1,
     );
   const prevImage = () =>
     setFullScreenImageIndex((prev) =>
-      prev === 0 ? image.length - 1 : prev - 1
+      prev === 0 ? image.length - 1 : prev - 1,
     );
 
   return (
@@ -46,7 +47,7 @@ const ProjectsImageSlide: React.FC<{ data: projectsDataTypes }> = ({
         <div>
           <div onClick={() => openFullScreen(currentImageIndex)}>
             <Image
-              src={image[currentImageIndex]}
+              src={limitedImages[currentImageIndex]}
               alt={name}
               width={250}
               height={250}
@@ -54,7 +55,7 @@ const ProjectsImageSlide: React.FC<{ data: projectsDataTypes }> = ({
             />
           </div>
           <div className="flex items-center justify-center gap-[10px]">
-            {image.map((_, imgIndex) => (
+            {limitedImages.map((_, imgIndex) => (
               <button
                 key={imgIndex}
                 onClick={() => setCurrentImageIndex(imgIndex)}

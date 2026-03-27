@@ -36,6 +36,7 @@ const Education: React.FC = function () {
               <a
                 href="https://www.udemy.com/certificate/UC-af9cdae5-62b3-4a20-9dc0-0371abac60e5/"
                 target="_blank"
+                className="hover:text-green-300"
               >
                 <TbFileCertificate />
               </a>
@@ -45,6 +46,7 @@ const Education: React.FC = function () {
               <a
                 href="https://www.udemy.com/certificate/UC-b0a205b1-2a02-4c91-99f3-9f0011ae2a56/"
                 target="_blank"
+                className="hover:text-green-300"
               >
                 <TbFileCertificate />
               </a>
@@ -54,6 +56,7 @@ const Education: React.FC = function () {
               <a
                 href="https://www.udemy.com/certificate/UC-164daaad-b780-4a68-b2b3-4830e3da437a/"
                 target="_blank"
+                className="hover:text-green-300"
               >
                 <TbFileCertificate />
               </a>

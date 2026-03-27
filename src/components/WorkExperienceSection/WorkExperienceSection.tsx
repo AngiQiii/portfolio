@@ -16,16 +16,35 @@ const WorkExperienceSection: React.FC = function () {
       <div className="py-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 tablet:bg-primary tablet:shadow-md tablet:shadow-primary tablet:px-5">
         <h2 className="text-2xl mb-5 ">Work Experience</h2>
         <p>
-          Made a car service website{" "}
+          Build and designed a car service website{" "}
           <a
             href="https://www.rnrautomotive.co.za"
             target="_blank"
-            className="underline cursor-pointer"
+            className="underline cursor-pointer hover:text-green-300"
           >
             https://www.rnrautomotive.co.za
           </a>
         </p>
-        <p className="mb-[30px]">de a 21st birthday invite</p>
+        <p className="mb-[30px]">
+          Build and designed a 21st birthday invite{" "}
+          <a
+            href="https://jeanire-21st-birthday.netlify.app/"
+            target="_blank"
+            className="underline cursor-pointer hover:text-green-300"
+          >
+            https://www.rnrautomotive.co.za
+          </a>
+        </p>
+        <p className="mb-[30px]">
+          Build and designed a cigar website for a company.{" "}
+          <a
+            href="https://www.checigarros.co.za/"
+            target="_blank"
+            className="underline cursor-pointer hover:text-green-300"
+          >
+            https://www.rnrautomotive.co.za
+          </a>
+        </p>
         <h2 className="text-2xl mb-5 ">Other</h2>
         <p>
           Created a CV with Next.js and then used Puppeteer to convert it into a

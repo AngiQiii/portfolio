@@ -24,6 +24,37 @@ import RnRAutomotive4 from "../../../public/Images/RnR_automotive_page4.png";
 import RnRAutomotive5 from "../../../public/Images/RnR_automotive_page5.png";
 import RnRAutomotive6 from "../../../public/Images/RnR_automotive_page6.png";
 
+//Cigar website
+import CigarHomepage1 from "../../../public/Images/cigar-homepage-1.png";
+import CigarHomepage2 from "../../../public/Images/cigar-homepage-2.png";
+import CigarHomepage3 from "../../../public/Images/cigar-homepage-3.png";
+import CigarHomepage4 from "../../../public/Images/cigar-homepage-4.png";
+import CigarHomepage5 from "../../../public/Images/cigar-homepage-5.png";
+import CigarHomepage6 from "../../../public/Images/cigar-homepage-6.png";
+import CigarAccessoriesPage1 from "../../../public/Images/cigar-accessoriespage-1.png";
+import CigarAccessoriesPage2 from "../../../public/Images/cigar-accessoriespage-2.png";
+import CigarAccessoriesPage3 from "../../../public/Images/cigar-accessoriespage-3.png";
+import CigarAccessoriePage1 from "../../../public/Images/cigar-accessoriepage-1.png";
+import CigarAccessoriePage2 from "../../../public/Images/cigar-accessoriepage-2.png";
+import CigarAccessoriePage3 from "../../../public/Images/cigar-accessoriepage-3.png";
+import CigarBrandsPage1 from "../../../public/Images/cigar-brandspage-1.png";
+import CigarBrandsPage2 from "../../../public/Images/cigar-brandspage-2.png";
+import CigarBrandsPage3 from "../../../public/Images/cigar-brandspage-3.png";
+import CigarBrandsPage4 from "../../../public/Images/cigar-brandspage-4.png";
+import CigarBrandPage1 from "../../../public/Images/cigar-brandpage-1.png";
+import CigarBrandPage2 from "../../../public/Images/cigar-brandpage-2.png";
+import CigarBrandPage3 from "../../../public/Images/cigar-brandpage-3.png";
+import CigarsPage1 from "../../../public/Images/cigar-cigarspage-1.png";
+import CigarsPage2 from "../../../public/Images/cigar-cigarspage-2.png";
+import CigarsPage3 from "../../../public/Images/cigar-cigarspage-3.png";
+import CigarPage1 from "../../../public/Images/cigar-cigarpage-1.png";
+import CigarPage2 from "../../../public/Images/cigar-cigarpage-2.png";
+import CigarPage3 from "../../../public/Images/cigar-cigarpage-3.png";
+import CigarPage4 from "../../../public/Images/cigar-cigarpage-4.png";
+import CigarContactPage1 from "../../../public/Images/cigar-contactpage-1.png";
+import CigarContactPage2 from "../../../public/Images/cigar-contactpage-2.png";
+import CigarContactPage3 from "../../../public/Images/cigar-contactpage-3.png";
+
 // Golf
 import GolfWebsite1 from "../../../public/Images/golf_website.png";
 import GolfWebsite2 from "../../../public/Images/Golf_website_page2.png";
@@ -109,6 +140,8 @@ export const ProjectsData: projectsDataTypes[] = [
     used: [FaReact, FaHtml5, FaCss3Alt, IoLogoFirebase],
     github: [FaGithub],
     githubLink: "https://github.com/AngiQiii/jeanrie-21ste-prod",
+    urlName: "website link",
+    url: "https://jeanire-21st-birthday.netlify.app/",
   },
   //
   {
@@ -133,6 +166,48 @@ export const ProjectsData: projectsDataTypes[] = [
     githubLink: "https://github.com/nGen-Studios/rnr-automotive",
     urlName: "website link",
     url: "https://www.rnrautomotive.co.za",
+  },
+  //
+  {
+    name: "Cigar Website",
+    image: [
+      CigarHomepage1,
+      CigarHomepage2,
+      CigarHomepage3,
+      CigarHomepage4,
+      CigarHomepage5,
+      CigarHomepage6,
+      CigarAccessoriesPage1,
+      CigarAccessoriesPage2,
+      CigarAccessoriesPage3,
+      CigarAccessoriePage1,
+      CigarAccessoriePage2,
+      CigarAccessoriePage3,
+      CigarBrandsPage1,
+      CigarBrandsPage2,
+      CigarBrandsPage3,
+      CigarBrandsPage4,
+      CigarBrandPage1,
+      CigarBrandPage2,
+      CigarBrandPage3,
+      CigarsPage1,
+      CigarsPage2,
+      CigarsPage3,
+      CigarPage1,
+      CigarPage2,
+      CigarPage3,
+      CigarPage4,
+      CigarContactPage1,
+      CigarContactPage2,
+      CigarContactPage3,
+    ],
+    description:
+      "I have build and designed a cigar website for a company.The front photo on the homepage I also edited using GIMP.",
+    used: [FaReact, RiNextjsFill, RiTailwindCssFill, SiTypescript],
+    github: [FaGithub],
+    githubLink: "https://github.com//nGen-Studios-ZA/che-cigarros-website",
+    urlName: "website link",
+    url: "https://www.checigarros.co.za/",
   },
   //
   {

@@ -80,6 +80,10 @@ export const SkillsData: skillsDataType[] = [
         name: "WordPress",
         rating: 3,
       },
+      {
+        name: "Wix",
+        rating: 3,
+      },
     ],
   },
   {
