@@ -1,7 +1,7 @@
 const WorkExperienceSection: React.FC = function () {
   return (
     <div id="experience" className="text-center">
-      <div className="w-full h-[250px]">
+      <div className="w-full h-[400px] tablet:h-[350px] mobile:h-[250px]">
         <div className="bg-tertiary relative w-60 h-60 mobile:w-40 mobile:h-40">
           <div className="bg-primary w-20 h-20 absolute top-20 -left-10 shadow-md shadow-primary mobile:top-10 mobile:-left-15"></div>
           <div className="bg-tertiary w-60 h-60 absolute top-1/2 left-1/2 shadow-md shadow-primary mobile:w-40 mobile:h-40">
